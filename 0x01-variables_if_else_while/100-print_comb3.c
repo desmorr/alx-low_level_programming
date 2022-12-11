@@ -3,7 +3,7 @@
 /**
  * main - prints all possible different combinations of two digits
  * Return: ALways 0 (Success)
- */
+*/
 int main(void)
 {
 	int n, m;
@@ -12,13 +12,11 @@ int main(void)
 	{
 		 for (m = 49; m <= 57; m++)
 		 {
-																		if (m > n)														{
-																			putchar(n);
+																		if (m > n)														{																putchar(n);
 				putchar(m);
 				if (n != 56 || m != 57)
 				{
-					
-					putchart(',');
+			 		putchar(',');
 					putchar(' ');																												}
 			}
 																	}
